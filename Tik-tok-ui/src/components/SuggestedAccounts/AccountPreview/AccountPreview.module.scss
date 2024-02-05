@@ -1,5 +1,5 @@
 .wrapper {
-  width: 320px;
+  inline-size: 320px;
   padding: 20px;
 }
 
@@ -10,8 +10,8 @@
 }
 
 .avatar {
-  width: 44px;
-  height: 44px;
+  inline-size: 44px;
+  block-size: 44px;
   border-radius: 50%;
   object-fit: cover;
 }
@@ -21,7 +21,7 @@
 }
 
 .body {
-  margin-top: 12px;
+  margin-block-start: 12px;
   color: #161823;
 }
 
@@ -32,7 +32,7 @@
 .check {
   font-size: 1.4rem;
   color: #20d5ec;
-  margin-left: 4px;
+  margin-inline-start: 4px;
 }
 
 .name {
@@ -40,12 +40,12 @@
 }
 
 .analytics {
-  margin-top: 10px;
+  margin-block-start: 10px;
   font-size: 1.8rem;
 }
 
 .value ~ .value {
-  margin-left: 20px;
+  margin-inline-start: 20px;
 }
 
 .label {

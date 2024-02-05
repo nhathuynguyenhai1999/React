@@ -14,7 +14,7 @@
     user-select: none;
 
     + .wrapper {
-        margin-left: 8px;
+        margin-inline-start: 8px;
     }
 
     &.disabled {
@@ -25,12 +25,12 @@
 
 .icon + .title,
 .title + .icon {
-    margin-left: 8px;
+    margin-inline-start: 8px;
 }
 
 .icon {
     display: inline-block;
-    width: 24px;
+    inline-size: 24px;
     text-align: center;
 }
 
@@ -75,11 +75,11 @@
 
 // Button sizes
 .small {
-    min-width: 88px;
+    min-inline-size: 88px;
     padding: 4px 16px;
 }
 
 .large {
     padding: 14px 16px;
-    min-width: 140px;
+    min-inline-size: 140px;
 }
